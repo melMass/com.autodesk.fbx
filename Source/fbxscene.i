@@ -12,6 +12,7 @@
 // in the class, these have to be explicitly unignored too:
 %rename("%s") FbxScene::GetNodeCount;
 %rename("%s") FbxScene::GetNode;
+%rename("%s") FbxScene::FindNodeByName;
 %rename("%s") FbxScene::GetSceneInfo;
 %rename("%s") FbxScene::SetSceneInfo;
 %rename("%s") FbxScene::GetRootNode;
