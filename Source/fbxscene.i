@@ -11,6 +11,7 @@
 // As the ignore everything will include the constructor, destructor, methods etc
 // in the class, these have to be explicitly unignored too:
 %rename("%s") FbxScene::GetNodeCount;
+%rename("%s") FbxScene::GetNode;
 %rename("%s") FbxScene::GetSceneInfo;
 %rename("%s") FbxScene::SetSceneInfo;
 %rename("%s") FbxScene::GetRootNode;
