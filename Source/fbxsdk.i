@@ -249,6 +249,7 @@
 %include "fbxlayercontainer.i"
 %include "fbxgeometrybase.i"
 %include "fbxgeometry.i"
+%include "fbxgeometryconverter.i"
 %include "fbxmesh.i"
 %include "fbxnurbscurve.i"
 %include "fbxglobalsettings.i"
